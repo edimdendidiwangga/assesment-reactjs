@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container {
+  padding: 1em;
+  width: 30%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.container .list-item {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 1em;
+}
+
+.container .list-item .head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding-bottom: 0.8em
+}
+
+.container .list-item .head .identity {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.container .list-item .head .identity .username{
+  padding-top: 0.2em;
+  font-size: 0.7em;
+  color: grey;
+}
+
+.container .list-item .head .avatar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1em;
+  width: 3em;
+  height: 3em;
+  background-color: red;
+  border-radius: 5em;
+  -webkit-border-radius: 5em;
+  -moz-border-radius: 5em;
+  -ms-border-radius: 5em;
+  -o-border-radius: 5em;
+}
+
+.container .list-item .title {
+  font-size: 1em;
+  font-weight: bold;
+  padding-bottom: 0.5em;
+}
+
+.container .list-item .desc {
+  font-size: 0.8em;
+}
+
+.container .list-item .list-comments {
+  margin-top: 0.5em;
+  border-top: 1px solid #ccc;
+  padding: 0.8em 0 0.8em 0;
+}
+
+.container .list-item .list-comments .comment {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #ccc;
+}
+
+.container .list-item .list-comments .comment .email{
+  color: black;
+  font-size: 0.9em;
+  padding-bottom: 0.2em;
+}
+
+button {
+  padding: 0.5em 1em 0.5em 1em;
+  background-color: aquamarine;
+  color: black;
+  font-weight: 600
+}
